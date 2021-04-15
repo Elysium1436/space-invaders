@@ -191,7 +191,7 @@ class Game:
     def __init__(self, screen_size=((800,600))):
         pygame.init()
         self.screen = pygame.display.set_mode(screen_size)
-        self.background = pygame.image.load('./images/background.jpg')
+        self.background = pygame.image.load('images/background.jpg')
         pygame.display.set_caption("Space Invaders")
         icon = pygame.image.load('./images/logo.png')
         pygame.display.set_icon(icon)
